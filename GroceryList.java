@@ -62,7 +62,7 @@ public class GroceryList
         cost3 = keyboard.nextFloat();
         out.println();
 
-        out.println("Calculating your gorcery bill");
+        out.println("Calculating your grocery bill");
         float result = ((cost1 * quant1) + (cost2 * quant2) + (cost3 * quant3));
         out.print("Your total cost is " + result);
 
